@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Noph bg"
+  name: "Noph"
   text: "Narrative design et écriture interactive"
   tagline: Passionné par les aspects techniques de la conception et de l'écriture d'expériences interactives
   image:
