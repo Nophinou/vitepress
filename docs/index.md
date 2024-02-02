@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Noph prout"
+  name: "Noph test"
   text: "Narrative design and game writing"
   tagline: Passionate about the technicalities of designing and writing for interactive experiences
   image:
