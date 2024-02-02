@@ -5,7 +5,7 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
   title: "Noph.pro",
   description: "Noph, Narrative designer and game writer",
-  base: '/vitepress/',
+  base: '/',
   locales: {
     root: {
       label: 'English',
