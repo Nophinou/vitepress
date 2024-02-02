@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Noph"
+  name: "Noph turbo"
   text: "Narrative design and game writing"
   tagline: Passionate about the technicalities of designing and writing for interactive experiences
   image:
