@@ -22,7 +22,9 @@ hero:
 
 features:
   - title: À propos de moi
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    icon:
+      src: /about.svg
+    details: Anciennement dans le marketing, j'ai toujours été plus intéressé par le côté technique de l'écriture (structure narrative, convergence du thème et de l'action, etc.) que par son exercice proprement dit ; la découverte du jeu vidéo dans ma vingtaine et de la discipline du narrative design quelques temps après m'ont permis de combiner mon intérêt prononcé pour les outils numériques et la conception d'expériences narratives.
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C

@@ -2,3 +2,14 @@
     max-width: 450px !important;
     max-height: 450px !important
 }
+
+
+:root {
+    --vp-c-brand-1: #e97b32;
+    --vp-c-brand-2: #df6415;
+    --vp-c-indigo-3: #eb8d53;
+}
+
+.image-container {
+    height: auto
+}
