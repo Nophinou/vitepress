@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [['link', { rel: 'icon', href: '/crinière.png' }]],
+  head: [['link', { rel: 'icon', href: '/svg.svg' }]],
   title: "Noph.pro",
   description: "Noph, Narrative designer and game writer",
   base: '/',
@@ -22,7 +22,7 @@ export default defineConfig({
   
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/crinière.png',
+    logo: '/svg.svg',
     nav: [
       { text: 'Portfolio', link: '/Portfolio' },
       { text: 'Public notes', link: '/Notes' }    
