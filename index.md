@@ -7,7 +7,7 @@ hero:
   text: "Narrative design and game writing"
   tagline: Passionate about the technicalities of designing and writing for interactive experiences
   image:
-    src: /logo.png
+    src: /crinière.png
     alt: Noph
   actions:
     - theme: brand
