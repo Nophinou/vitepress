@@ -13,12 +13,10 @@ hero:
     - theme: brand
       text: Portfolio
       link: /Portfolio
-    - theme: alt
-      text: Notes publiques
-      link: /Notes
-    - theme: alt
-      text: test
-      link: /markdown-examples
+    - theme: brand
+      text: Mon CV
+      link: https://drive.google.com/file/d/13HcHAgKjs3TdKiBj1A_Q8_aQkLW9hxai/view?usp=drive_link
+
 
 features:
   - title: À propos de moi
@@ -26,8 +24,11 @@ features:
     icon: 
       light: /darkabout.svg
       dark: /lightabout.svg
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Mes jeux préférés
+    icon: 
+      dark: /whitegamepad.svg
+      light: /blackgamepad.svg
+    details: J'ai toujours eu un faible pour les jeux de plateforme ou les roguelikes typés arcade, au gameplay rapide et nerveux - du speedrun de Celeste à misérablement tenter de terminer une run de Spelunky ou Risk of Rain. Cependant, c'est bien la narration et l'ambiance comme celles que l'on peut trouver dans Citizen Sleeper, OneShot, Outer Wilds ou Disco Elysium (des références qui sortent de l'ordinaire, n'est-ce pas ?) qui m'ont attiré vers la discipline. 
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
