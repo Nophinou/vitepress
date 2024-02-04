@@ -19,7 +19,7 @@ features:
     icon: 
       light: /darkabout.svg
       dark: /lightabout.svg
-    details: Former marketing guy. I was always more into the technical side of writing (learning about story structures, developing theme, etc.) than getting into the knitty-gritty part of it ; discovering video games in my mid-20s and specifically narrative design a few years thereafter allowed me to merge my interest in digital tools and the experience of writing stories.
+    details: Former marketing guy. I was always more into the technical side of writing (learning about story structures, developing theme, etc.) than getting into the knitty-gritty part of it ; discovering video games in my mid-20s and specifically narrative design a few years thereafter allowed me to combinbe my interest in digital tools and systems with the experience of writing stories.
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
