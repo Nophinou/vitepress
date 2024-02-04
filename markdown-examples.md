@@ -2,7 +2,7 @@
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
 
-## Syntax Highlighting
+## Syntax Highlighting <Badge type="tip" text="^1.9.0" />
 
 VitePress provides Syntax Highlighting powered by [Shikiji](https://github.com/antfu/shikiji), with additional features like line-highlighting:
 

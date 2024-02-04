@@ -16,13 +16,16 @@ hero:
     - theme: brand
       text: My résumé
       link: https://drive.google.com/file/d/13HcHAgKjs3TdKiBj1A_Q8_aQkLW9hxai/view?usp=drive_link
+    - theme: brand
+      text: test
+      link: /markdown-examples.md
 
 features:
   - title: About me
     icon: 
       light: /darkabout.svg
       dark: /lightabout.svg
-    details: Former marketing guy. I was always more into the technical side of writing (learning about story structures, developing theme, etc.) than getting into the knitty-gritty part of it ; discovering video games in my mid-20s and specifically narrative design a few years thereafter allowed me to combinbe my interest in digital tools and systems with the experience of writing stories.
+    details: Former marketing guy. I was always more into the technical side of writing (learning about story structures, developing theme, etc.) than getting into the knitty-gritty part of it ; discovering video games in my mid-20s and specifically narrative design a few years thereafter allowed me to combine my interest in digital tools and systems with the experience of writing stories.
   - title: Games I like
     icon: 
       dark: /whitegamepad.svg

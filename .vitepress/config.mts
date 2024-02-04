@@ -30,6 +30,12 @@ export default defineConfig({
     
     i18nRouting: true,
 
+    lastUpdated: true,
+
+    search: {
+      provider: 'local'
+    },
+
     sidebar: [
       {
         text: 'Examples',
