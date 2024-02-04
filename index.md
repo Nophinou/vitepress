@@ -11,19 +11,14 @@ hero:
     alt: Noph
   actions:
     - theme: brand
-      text: Portfolio
-      link: /Portfolio
-    - theme: alt
-      text: Public notes
-      link: /Notes
-    - theme: alt
-      text: Download my résumé
-      link: /résumé
+      text: My résumé
+      link: /test.pdf
 
 features:
   - title: About me
-    icon:
-      src: /about.svg
+    icon: 
+      light: /darkabout.svg
+      dark: /lightabout.svg
     details: Former marketing guy. I was always more into the technical side of writing (learning about story structures, developing theme, etc.) than getting into the knitty-gritty part of it ; discovering video games in my mid-20s and specifically narrative design a few years thereafter allowed me to merge my interest in digital tools and the experience of writing stories.
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

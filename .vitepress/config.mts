@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [['link', { rel: 'icon', href: '/svg.svg' }]],
-  title: "Noph's stuff",
+  title: "Noph",
   description: "Noph, Narrative designer and game writer",
   base: '/',
   cleanUrls: true,
