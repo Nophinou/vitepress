@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: My résumé
-      link: /test.pdf
+      link: https://drive.google.com/file/d/13HcHAgKjs3TdKiBj1A_Q8_aQkLW9hxai/view?usp=drive_link
 
 features:
   - title: About me
