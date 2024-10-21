@@ -14,22 +14,20 @@ hero:
       text: Portfolio
       link: /Portfolio
     - theme: brand
-      text: Mon CV
-      link: https://drive.google.com/file/d/13HcHAgKjs3TdKiBj1A_Q8_aQkLW9hxai/view?usp=drive_link
+      text: Notes publiques
+      link: /Notes
 
 
 features:
   - title: À propos de moi
-    details: Anciennement dans le marketing, j'ai toujours été plus intéressé par le côté technique de l'écriture (structure narrative, convergence du thème et de l'action, etc.) que par son exercice proprement dit ; la découverte du jeu vidéo dans ma vingtaine et plus particulièrement du narrative design quelques temps après m'ont permis de combiner mon intérêt prononcé pour les outils numériques et la conception d'expériences narratives.
+    details: Anciennement dans le marketing. J'aime l'écriture et l'adaptation d'une narration à des structures interactives et la glace au chocolat.
     icon: 
       light: /darkabout.svg
       dark: /lightabout.svg
-  - title: Mes jeux préférés
+  - title: Ce à quoi je joue
     icon: 
       dark: /whitegamepad.svg
       light: /blackgamepad.svg
-    details: J'ai toujours eu un faible pour les jeux de plateforme ou les roguelikes typés arcade, au gameplay rapide et nerveux - du speedrun de Celeste à misérablement tenter de terminer une run de Spelunky ou Risk of Rain. Cependant, c'est bien la narration et l'ambiance comme celles que l'on peut trouver dans Citizen Sleeper, OneShot, Outer Wilds ou Disco Elysium (des références qui sortent de l'ordinaire, n'est-ce pas ?) qui m'ont attiré vers la discipline. 
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Soit je passe cinq cent heures sur des jeux typés arcade (Celeste, Spelunky, Risk of Rain) de façon éparpillée, soit je sacrifie mes nuits pour faire d'une traite (ou presque) des jeux narratifs comme Omori, Citizen Sleeper, ou OneShot. 
 ---
 
