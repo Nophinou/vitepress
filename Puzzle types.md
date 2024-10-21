@@ -295,3 +295,5 @@ The player also has to meet the condition that makes `b → c` effective.
 # Delayed action 
 
 Performing an action now for a distant, future effect. Harder if more than one location is involved.
+
+test
