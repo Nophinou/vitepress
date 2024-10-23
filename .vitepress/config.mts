@@ -38,11 +38,13 @@ export default defineConfig({
 
     sidebar: [
       { 
-        text: 'Examples',
+        text: 'Navigation',
         items: [
           { text: 'Storylets', link: '/Storylets' },
-          { text: 'Bibliography', link: '/Bibliography' },
-          { text: 'Tools', link: '/Tools' }
+          { text: 'Puzzle design', link: '/Puzzle design' },
+          { text: 'Puzzle types', link: '/Puzzle types' },
+          { text: 'Tools', link: '/Tools' },
+          { text: 'Bibliography', link: '/Bibliography' }
         ]
       }
     ],
