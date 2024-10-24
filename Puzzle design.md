@@ -4,6 +4,8 @@ title: Puzzle types
 lang: en-US
 ---
 
+# Puzzle design
+
 ## Characteristics of a bad puzzle
 
 ### "Restore" puzzles

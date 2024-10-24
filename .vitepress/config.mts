@@ -38,7 +38,7 @@ export default defineConfig({
 
     sidebar: [
       { 
-        text: 'Navigation',
+        text: 'About',
         items: [
           { text: 'Storylets', link: '/Storylets' },
           { text: 'Puzzle design', link: '/Puzzle design' },

@@ -4,6 +4,8 @@ title: Puzzle types
 lang: en-US
 ---
 
+# Puzzle types
+
 This is a list of puzzle archetypes mainly drawn from [this article written by Emily Short](https://emshort.blog/how-to-play/reading-if/puzzles/), [this discussion thread](https://www.adventuregamestudio.co.uk/forums/adventure-related-talk-chat/encyclopedia-of-every-adventure-games-puzzles-ever/), [this other article by Scarpia](http://junk.dk/puzzle/), which was a reaction to [this article by Bob bates](https://web.archive.org/web/20130727224114/http://www.scottkim.com:80/thinkinggames/GDC00/bates.html). They've been concatenated, reorganized, rewritten in a way that makes sense to me.
 
 ## Diagnostic 
@@ -86,7 +88,7 @@ Visit a room in another dimension / time period, influence one through the other
 
 - Outer Wilds Echoes of the Eye
 
-## Remote control / magnet#
+## Remote control / magnet
 
 Lever in a location is blocked by another element that you can only have an effect on from another location
 
@@ -284,6 +286,10 @@ The simplest puzzle there can be. Use the key to open the locked door.
 
 Make use of the secondary characteristic of an object. The diamond earring can cut glass, the candle's wax can be melted into a key impression, etc.
 
+
+<!--insert grand poo world 3 where mario stands on a key to reach the door instead of using it to unlock it
+-->
+
 ## Exluded middle
 
 If `a → b` and `c → d`, then in a situation where player has reasons to believe that `b → c` and they want to achieve `d`, hopefully they recognize they should perform `a`.
@@ -295,3 +301,7 @@ The player also has to meet the condition that makes `b → c` effective.
 ## Delayed action 
 
 Performing an action now for a distant, future effect. Harder if more than one location is involved.
+
+
+
+<a href=".vitepress/dist/back.jpg" download>Download</a>
