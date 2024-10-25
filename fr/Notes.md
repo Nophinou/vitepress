@@ -8,4 +8,4 @@ lang: fr-FR
 
 Ces pages regroupent les notions centrales de mes connaissances en matière de narrative design. Il ne s'agit ni d'articles de blog, ni de transcription de conférences, mais de notes opérationnelles qui me forcent à structurer mes connaissances et me servent de mémo lorsque j'en ai besoin.
 
-Les articles et vidéos mentionnés sont accompagnés d'un lien vers le matériau d'origine, mais il existe également une [bibliographie](/Bibliography.md). N'hésitez pas à me contacter en cas de lien cassé ou pour simplement discuter.
+Les articles et vidéos mentionnés sont accompagnés d'un lien vers le matériau d'origine, mais il existe également une [bibliographie](/bibliography.md). N'hésitez pas à me contacter en cas de lien cassé ou pour simplement discuter.
