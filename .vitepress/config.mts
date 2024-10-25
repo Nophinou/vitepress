@@ -7,7 +7,6 @@ export default defineConfig({
   description: "Noph, Narrative designer and game writer",
   base: '/',
   cleanUrls: true,
-  ignoreDeadLinks: true,
   locales: {
     root: {
       label: 'English',
