@@ -50,7 +50,7 @@ export default defineConfig({
           { text: 'Puzzle types', link: '/Notes/Puzzle types' },
           { text: 'Tools', link: '/Notes/Tools' },
           { text: 'Bibliography', link: '/Notes/bibliography' },
-          { text: 'Choices', link: '/Notes/choices' }
+          { text: 'Choices', link: '/Notes/Choices' },
 
         ]
       }
