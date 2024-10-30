@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Puzzle types
+title: Puzzle design
 lang: en-US
 ---
 
