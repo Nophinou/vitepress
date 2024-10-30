@@ -67,7 +67,7 @@ export default defineConfig({
           { text: 'Types de puzzles', link: '/fr/Notes/Puzzle types' },
           { text: 'Outils', link: '/fr/Notes/Tools' },
           { text: 'Bibliographie', link: '/fr/Notes/bibliography' },
-          { text: 'Choices', link: 'fr/Notes/choices' }
+          { text: 'Choix', link: '/fr/Notes/choices' }
 
         ]
       }

@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Portfolio
-      link: /Portfolio
+      link: /Portfolio/about
     - theme: brand
       text: Notes publiques
-      link: /Notes
+      link: /Notes/about
 
 
 features:
