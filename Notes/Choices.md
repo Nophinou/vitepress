@@ -8,7 +8,6 @@ lang: en-US
 
 ## The hypertext choice
 
-
 ![choice anatomy](/choice-poetics-dark.png){.dark-only}
 ![choice anatomy](/choice-poetics-light.png){.light-only}
 
