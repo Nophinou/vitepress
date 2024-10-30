@@ -2,10 +2,11 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [['link', { rel: 'icon', href: '/svg.svg' }]],
+  head: [['link', { rel: 'icon', href: '/crinière.png' }]],
   title: "Noph",
   description: "Noph, Narrative designer and game writer",
   base: '/',
+  logo: '/crinière.png',
   cleanUrls: true,
   locales: {
     root: {
@@ -20,14 +21,15 @@ export default defineConfig({
     }
   } ,
   
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-
+    outline: [2,6],
     nav: [
-      { text: 'Portfolio', link: '/Portfolio' },
-      { text: 'Public notes', link: '/Notes' }    
+      { text: 'Portfolio', link: '/Portfolio/About.md' },
+      { text: 'Public notes', link: '/Notes/About' }    
     ],
-    
+    logo: '/crinière.png',
     i18nRouting: true,
 
     lastUpdated: true,
@@ -36,19 +38,54 @@ export default defineConfig({
       provider: 'local'
     },
 
-    sidebar: [
+    sidebar: {
+
+      '/Notes/': [
       { 
         text: 'Public Notes',
         items: [
-          { text: 'About', link: '/Notes' },
-          { text: 'Storylets', link: '/Storylets' },
-          { text: 'Puzzle design', link: '/Puzzle design' },
-          { text: 'Puzzle types', link: '/Puzzle types' },
-          { text: 'Tools', link: '/Tools' },
-          { text: 'Bibliography', link: '/bibliography' },
+          { text: 'About', link: '/Notes/About' },
+          { text: 'Storylets', link: '/Notes/Storylets' },
+          { text: 'Puzzle design', link: '/Notes/Puzzle design' },
+          { text: 'Puzzle types', link: '/Notes/Puzzle types' },
+          { text: 'Tools', link: '/Notes/Tools' },
+          { text: 'Bibliography', link: '/Notes/bibliography' },
+          { text: 'Choices', link: '/Notes/choices' }
+
         ]
       }
     ],
+
+
+      '/fr/Notes/': [
+      { 
+        text: 'Notes publiques',
+        items: [
+          { text: 'À propos', link: '/fr/Notes/About' },
+          { text: 'Narramiettes', link: '/fr/Notes/Storylets' },
+          { text: 'Puzzle design', link: '/fr/Notes/Puzzle design' },
+          { text: 'Types de puzzles', link: '/fr/Notes/Puzzle types' },
+          { text: 'Outils', link: '/fr/Notes/Tools' },
+          { text: 'Bibliographie', link: '/fr/Notes/bibliography' }
+        ]
+      }
+    ],
+
+      '/Portfolio/': [
+      { 
+        text: 'Portfolio',
+      items: [
+        { text: 'About', link: '/Notes/About' },
+        { text: 'Storylets', link: '/Notes/Storylets' },
+        { text: 'Puzzle design', link: '/Notes/Puzzle design' },
+        { text: 'Puzzle types', link: '/Notes/Puzzle types' },
+        { text: 'Tools', link: '/Notes/Tools' },
+        { text: 'Bibliography', link: '/Notes/bibliography' },
+      ]
+      }
+    ]
+  },
+  
     
     socialLinks: [
       { icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258 230"> <path d="m35.2 0h92.9c86.4 0 93.2 0.1 96.6 1.8 2 0.9 7.3 5.3 11.7 9.7 4.5 4.4 10.2 10.7 12.7 14 2.6 3.3 5.7 8 6.9 10.5 2.1 3.9 2.3 5.5 1.8 12.5-0.4 5.8-1.2 9.4-3 13-1.4 2.8-4.6 6.9-7.2 9.3-3 2.7-6.4 4.7-9.9 5.7-3.1 0.9-6.6 1.3-8.7 0.9-1.9-0.4-5.4-1.5-7.8-2.6-2.3-1-5.7-3.3-7.6-5-1.9-1.8-4.3-5.3-7.5-12.3l-1.9 4.5c-1.1 2.5-3.7 6.1-5.8 8.2-2.2 2-5.7 4.4-7.9 5.3-2.2 0.9-6.5 1.7-9.5 1.7-3.5 0.1-7.3-0.7-10.5-2-2.8-1.2-6.2-3.4-7.7-4.9-1.4-1.6-3.8-4.9-7.8-12.3l-1.3 3.3c-0.7 1.7-2.9 5-4.9 7.2-1.9 2.2-5.9 5.1-8.9 6.4-3.6 1.6-7.3 2.4-10.9 2.4-3.5 0-7.3-0.8-10.5-2.2-2.8-1.2-6.5-3.6-8.4-5.4-1.8-1.8-4.4-5.4-5.7-8.2-1.2-2.7-2.3-4.3-2.3-3.5-0.1 0.8-1 3.3-2.2 5.5-1.2 2.2-3.3 5.2-4.8 6.8-1.4 1.5-4.9 3.7-7.6 4.9-3.2 1.3-7 2.1-10.5 2-3.2 0-7.4-0.9-10-2-2.5-1.1-6.2-3.7-8.2-5.8-2-2.2-4.4-5.7-7-11.9l-2.4 5c-1.4 2.8-3.9 6.3-5.7 7.8-1.8 1.5-5 3.6-7.2 4.6-2.2 1-5.6 2.1-7.5 2.5-2.1 0.4-5.6 0-8.8-0.9-3.4-1-6.8-3-9.8-5.7-2.6-2.4-5.8-6.5-7.2-9.3-1.9-3.7-2.7-7.1-3-13-0.5-6.9-0.2-8.6 1.7-12.5 1.3-2.5 4.2-6.9 6.4-9.9 2.3-3 7.1-8.4 10.7-12.1 3.6-3.7 8.7-8.4 11.3-10.4zm15.8 71.1c0.3 0 2.2 1.8 4.3 4 2.1 2.1 6.1 5.1 9 6.6 4.3 2.2 6.6 2.7 12.3 2.7 5.4 0 8.1-0.5 12.5-2.6 3-1.4 7-4.4 9-6.7 1.9-2.2 3.8-4 4.2-4.1 0.4 0 2.4 1.8 4.5 4.1 2.1 2.2 6.2 5.3 9.3 6.7 4.3 2.1 7 2.6 13 2.6 6.1 0.1 8.5-0.4 13-2.6 3-1.4 7.1-4.5 9.2-6.7 2.1-2.3 4.1-4.1 4.5-4.1 0.4 0 1.9 1.5 3.3 3.3 1.5 1.7 5.5 4.8 9 6.7 5.6 3 7.4 3.4 13.5 3.4 5.6 0 8-0.6 12.2-2.7 2.9-1.5 7.1-4.5 13.5-11l5.1 5c2.8 2.7 7.2 5.7 9.7 6.7 2.4 0.9 6.7 2 14.5 3.1l0.7 9.5c0.5 5.2 0.7 29.1 0.5 53-0.4 40.5-0.5 44.3-2.7 54.5-1.2 6.1-3 12.6-4.1 14.5-1 1.9-2.4 4.3-3.1 5.2-1 1.2-5.2 2.2-15.8 3.7-8 1.2-20.4 2.5-27.5 3.1-7.2 0.6-32.3 1-55.8 1-23.5 0-48.5-0.5-55.5-1-7-0.6-19.3-2-27.2-3.1-10.7-1.5-14.9-2.5-15.9-3.7-0.7-0.9-2.1-3.3-3.1-5.2-1-1.9-2.9-8.4-4.1-14.5-2.1-10.2-2.3-14-2.6-54.5-0.2-23.9-0.1-47.8 1.2-62.5l5.2-0.7c2.9-0.4 7.4-1.7 10-2.8 2.6-1.1 6.8-4 9.2-6.5 2.5-2.5 4.7-4.5 5-4.4zm13.1 35c-1.8 1.9-4.8 5.7-6.5 8.4-1.7 2.8-4.3 8.2-5.8 12-1.5 3.9-4.3 13.1-6.3 20.5-2 7.4-4.5 16.4-5.6 20-1 3.6-2.6 10.2-3.4 14.8-0.8 4.5-1.2 9.4-0.9 11 0.4 1.5 1.2 4 1.8 5.5 0.6 1.6 2.5 3.4 4.2 4.2 1.6 0.7 5.2 1.6 8 1.9 2.7 0.4 7.4 0.2 10.5-0.4 3-0.6 7.7-2.1 10.5-3.3 2.7-1.3 6.9-4.3 9.2-6.8 2.4-2.4 5.2-6.7 6.3-9.6 1.1-2.9 2-6.1 1.9-7 0-1 0.6-2.5 1.3-3.4 1.1-1.5 2.2-1.5 10.8-0.3 5.2 0.7 18.2 1.3 29 1.3 10.7 0 23.7-0.6 29-1.3 5.2-0.7 9.7-1 10.1-0.7 0.3 0.3 1.5 3.8 2.7 7.6 1.1 3.9 3.4 8.8 5.2 11 1.8 2.2 4.6 5 6.3 6.3 1.7 1.2 5.6 3.2 8.7 4.4 3.8 1.4 7.9 2.1 13.5 2.1 4.9 0 9.1-0.5 10.9-1.4 1.6-0.8 3.7-2.5 4.8-3.9 1.4-1.9 1.9-4.1 1.9-9 0-3.6-0.8-9.6-1.6-13.5-0.9-3.8-2.2-9-3-11.5-0.8-2.5-3-10.6-5-18-2-7.4-4.8-16.6-6.3-20.5-1.5-3.8-4.1-9.2-5.8-12-1.7-2.7-4.7-6.5-6.5-8.4-1.9-1.8-5.1-4.2-7.2-5.2-2.8-1.4-5.9-1.9-12-1.9-5.8 0-9.4 0.6-12.2 1.9-2.2 1-5.5 3-7.3 4.5l-3.2 2.6h-46c-5.1-4.1-8.3-6.1-10.5-7.1-2.9-1.3-6.4-1.8-12.5-1.8-6.3 0-9.5 0.5-12 1.8-2 1-5.1 3.4-7 5.2zm64.9 16.9c0.8 0 7.1 5.6 13.8 12.5 6.7 6.9 12.1 13.1 11.9 13.8-0.2 0.8-2.6 1.3-12.6 1.7v5c0 2.8-0.3 5.7-0.5 6.5-0.4 1.2-2.8 1.5-12.5 1.5-9.8 0-12.1-0.3-12.5-1.5-0.3-0.8-0.5-3.7-0.5-11.5h-6.5c-5.2 0-6.6-0.3-6.7-1.6-0.1-0.9 5.4-7.2 12.2-14 6.7-6.8 13-12.4 13.9-12.4z"></svg>'}, link: 'https://nph.itch.io/'

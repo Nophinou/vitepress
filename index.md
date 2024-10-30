@@ -15,7 +15,7 @@ hero:
       link: /Portfolio
     - theme: brand
       text: Public notes
-      link: /Notes
+      link: /Notes/notes
 
 features:
   - title: About me
