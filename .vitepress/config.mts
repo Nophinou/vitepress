@@ -17,29 +17,75 @@ export default defineConfig({
     fr: {
       label: 'French',
       lang: 'fr', // optional, will be added  as `lang` attribute on `html` tag
-      link: '/fr/' // default /fr/ -- shows on navbar translations menu, can be external
+      link: '/fr/', // default /fr/ -- shows on navbar translations menu, can be external
+      themeConfig: {
+        docFooter: {
+          prev: 'Page précédente',
+          next: 'Page suivante'
+        },
+        returnToTopLabel: 'Retour en haut',
+        sidebarMenuLabel: 'Menu',
+        darkModeSwitchLabel: 'Thème',
+        lightModeSwitchTitle: 'Passer en mode clair',
+        darkModeSwitchTitle: 'Passer en mode sombre',
+        langMenuLabel: 'Changer de langue',
+        outline: {
+          label: 'Sur cette page'
+        },
+        nav: [
+          { text: 'Portfolio', link: '/fr/Portfolio/About', activeMatch: '/fr/Portfolio/' },
+          { text: 'Notes Publiques', link: '/fr//Notes/About', activeMatch: '/fr/Notes/'}    
+        ]
+      }
     }
   } ,
   
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    outline: [2,6],
     nav: [
-      { text: 'Portfolio', link: '/Portfolio/About.md' },
-      { text: 'Public notes', link: '/Notes/About' }    
+      { text: 'Portfolio', link: '/Portfolio/About.md', activeMatch: '/Portfolio/' },
+      { text: 'Public notes', link: '/Notes/About', activeMatch: '/Notes/'}    
     ],
     logo: '/crinière.png',
     i18nRouting: true,
-
-    lastUpdated: true,
-
+    lastUpdated: false,
+    externalLinkIcon: true,
+    outline: {
+      level: 'deep'
+    },
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        locales: {
+          fr: {
+            translations: {
+              button: {
+                buttonText: 'Recherche',
+                buttonAriaLabel: 'Recherche',
+              },
+              modal: {
+                displayDetails: 'Afficher les détails',
+                resetButtonTitle: 'Réinitialiser',
+                backButtonTitle: 'Retour',
+                noResultsText: 'Pas de résultat pour',
+                footer: {
+                  selectText: 'pour sélectionner',
+                  selectKeyAriaLabel: 'sélection',
+                  navigateText: 'pour naviguer',
+                  navigateUpKeyAriaLabel: 'haut',
+                  navigateDownKeyAriaLabel: 'bas',
+                  closeText: 'Fermer',
+                  closeKeyAriaLabel: 'esc'
+                }
+              }
+            }
+          }
+        }
+      }
     },
 
     sidebar: {
-
       '/Notes/': [
       { 
         text: 'Public Notes',
@@ -49,8 +95,9 @@ export default defineConfig({
           { text: 'Puzzle design', link: '/Notes/Puzzle design' },
           { text: 'Puzzle types', link: '/Notes/Puzzle types' },
           { text: 'Tools', link: '/Notes/Tools' },
-          { text: 'Bibliography', link: '/Notes/bibliography' },
           { text: 'Choices', link: '/Notes/Choices' },
+          { text: 'Dialogue', link: '/Notes/Dialogue' },
+          { text: 'Bibliography', link: '/Notes/bibliography' },
 
         ]
       }
@@ -66,8 +113,9 @@ export default defineConfig({
           { text: 'Puzzle design', link: '/fr/Notes/Puzzle design' },
           { text: 'Types de puzzles', link: '/fr/Notes/Puzzle types' },
           { text: 'Outils', link: '/fr/Notes/Tools' },
+          { text: 'Choix', link: '/fr/Notes/choices' },
+          { text: 'Dialogue', link: '/fr/Notes/Dialogue' },
           { text: 'Bibliographie', link: '/fr/Notes/bibliography' },
-          { text: 'Choix', link: '/fr/Notes/choices' }
 
         ]
       }
@@ -95,7 +143,7 @@ export default defineConfig({
     { icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 176"> <path d="m9.1 1.9c-1.9 1-4.5 3.4-5.8 5.3-1.3 1.8-2.3 4.2-2.1 5.2 0.2 1.3 21.2 15.6 63 43.2 34.6 22.8 63.2 41.4 63.8 41.4 0.6 0 29.2-18.6 63.8-41.4 41.8-27.6 62.8-41.9 63-43.2 0.2-1-0.7-3.4-2-5.3-1.3-1.9-3.9-4.2-5.8-5.3-3.4-1.7-8.4-1.8-119-1.8-111.7 0-115.6 0.1-118.9 1.9zm-9.1 86.6v55.5c66.6-42.2 85.6-54.8 85.2-55.2-0.4-0.4-19.5-13.1-42.4-28.2-23-15.2-42-27.6-42.3-27.6-0.3 0-0.5 25-0.5 55.5zm212.8-27.7c-22.9 15.3-41.9 27.9-42.2 28.2-0.3 0.3 18.8 12.8 42.4 27.8l43 27.2c0-86-0.3-111-0.8-110.9-0.4 0-19.5 12.5-42.4 27.7zm-161.8 69.7c-32.1 20.3-49.6 32-49.8 33.2-0.2 1 0.7 3.3 2 5.2 1.3 1.9 3.9 4.2 5.8 5.3 3.4 1.7 8.4 1.8 119 1.8 110.6 0 115.6-0.1 119-1.8 1.9-1.1 4.5-3.4 5.8-5.3 1.2-1.9 2.2-4.2 2.2-5.1 0-1.3-15.4-11.5-50.1-33.3l-50.2-31.5c-20.1 13.6-24.6 16-26.7 16-2.1 0-6.7-2.4-15-8-6.6-4.4-12.1-8-12.2-7.9-0.2 0-22.6 14.1-49.8 31.4z"></svg>'}, link: 'mailto:contact@noph.pro'
   },
       { icon: 'mastodon', link: 'https://mastodon.social/@Noph' },
-      { icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 2800"> <path d="M500,0L0,500v1800h600v500l500-500h400l900-900V0H500z M2200,1300l-400,400h-400l-350,350v-350H600V200h1600 V1300z"></svg>'}, link: 'https://www.twitch.tv/nophinou'
-    },
+      { icon: 'twitch', link: 'https://www.twitch.tv/nophinou' },
     ]
+
 }})

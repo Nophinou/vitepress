@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Noph"
   text: "Narrative design and game writing"
-  tagline: Passionate about the technicalities of designing and writing for interactive experiences
+  tagline: Passionate about the technicalities of designing and writing for interactive experiences <br><br>
   image:
     src: /test.png
     alt: Noph
@@ -29,4 +29,3 @@ features:
       light: /blackgamepad.svg
     details: I either spend five hundred hours on arcade-type games such as Celeste, Spelunky, and Risk of Rain, or I sacrifice my nights to experience in a single sitting narrative games such as Omori, Citizen Sleeper, or OneShot.
 ---
-

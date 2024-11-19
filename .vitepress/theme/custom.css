@@ -6,9 +6,12 @@
 
 }
 
+html.dark a:hover {
+    color: #eaf550db !important ;
+}
 
- a:hover {
-    color: #f3f381db !important ;
+html:not(.dark) a:hover {
+    color: #f89500db !important ;
 }
 
 
@@ -19,3 +22,4 @@ html.dark .light-only {
 html:not(.dark) .dark-only {
     display: none !important;
   }
+

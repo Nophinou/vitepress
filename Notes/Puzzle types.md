@@ -28,7 +28,7 @@ May rely on a single specific solution that goes beyond the usual scope of comba
 
 Self-explanatory. Subset: managing limited time. 
 
-## Geographical puzzles#
+## Geographical puzzles
 
 Understanding, managing, manipulating space. 
 
@@ -45,7 +45,7 @@ Understanding a fundamental truth or mechanic about a place that isn't apparent 
 
 Optimizing a process, finding the exact correct order of known steps
 
-## The classics#
+## The classics
 
 - A wolf, a cabbage and a sheep must cross a river
 - Pour a volume `A` but you only have containers of volume `B` and `C`

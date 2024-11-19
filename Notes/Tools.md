@@ -23,3 +23,7 @@ Tried Krita for drawing small simple visual assets, but it was too powerful for 
 ## [Asset Forge](https://kenney.nl/tools/asset-forge)
 
 A basic 3D builder that comes with a variety of elementary blocks that you can dispose and apply simple modifications to very easily. Supports importing 3rd party models, great for building simple scenes if, like me, you don't know what you're doing.
+
+## [Graphviz](https://graphviz.org/)
+
+A cool diagram generator that can use several algorithms to organize and display elements and their relationships in a visually appealing manner, no matter how complex they are. Quite rich in features if you bother learning its syntax, and very useful to [check and amend the logic behind your puzzles](https://grumpygamer.com/puzzle_dependency_charts). I recommend using [edotor](https://www.edotor.net) and its live preview.

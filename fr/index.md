@@ -7,7 +7,7 @@ hero:
   text: "Narrative design et écriture interactive"
   tagline: Passionné par les aspects techniques de la conception et de l'écriture d'expériences interactives
   image:
-    src: /svg.svg
+    src: /test.png
     alt: Noph
   actions:
     - theme: brand
