@@ -9,7 +9,7 @@ lang: en-US
 ## Anatomy of the hypertext choice
 
 ::: tip Decision processes
-This page focuses on hypertext choices, but a lot of the concepts explored here extend significantly to broader decision making.
+This page focuses on hypertext choices, but a lot of the concepts explored here extend significantly to broader decision interfaces.
 :::
 
 ![choice anatomy](/en-choice-poetics-dark.png){.dark-only}
@@ -65,10 +65,87 @@ Can be influenced by the format of the options: are we faced with a menu, dialog
 - Mechanical ability in real-time gameplay games
 - Limited time to choose
 
-### Other characteristics
+### Other exploitable characteristics
 
-- Reversibility
-- 
+- Reversibility of the option chosen
+- Windblown: not making your kunais explode lets you apply a status after a while, kind of a hidden option that has low discoverability
+
+
+
+## Other interfaces 
+
+From [Emily Short's dedicated article](https://emshort.blog/2016/05/25/not-all-choice-interfaces-are-alike/) -> considering the input method itself, not the verbs available in the game.
+
+Metrics to consider:
+- **Effort**: the amount of work needed to operate the game. Clicking < typing < using a dancepad. High effort = more identification and complicity with the protagonist.
+- **Expressiveness**: how much info is packed into a single action. A parser system is expressive, clicking is not. Heightens intention. ⚡You can also have many non-expressive moves that combine, sequentially or not!
+- **Ambiguity**: the equivalent of certainty as defined above, but pertaining to the input method, not the selected option.
+- **Discoverability**: of valid commands. Parsers are often unintentionally hard because of their lack of discoverability.
+- **Pressure**: the presence of stakes based on a timely and successful performance. Often present in interactive film since a sequence is playing.
+- **Embodiment**: the analogy between player and character mechanical actions.
+
+### Hypertext links
+
+Low effort, expressiveness, pressure. <br>
+High discoverability, variable ambiguity.
+
+### Timed hypertext
+
+Generally only used for stressful situations, not for the full piece.
+
+### Dragged commands
+
+A la Texture. very discoverable cause areas highlighted, more expressive if choosing action and object, but fewer interactions than parser game. mild effort. sweet spot cause accessible but still intention and complicity.
+
+### Untimed choice selection from short list
+
+very standard. low effort, expressiveness, pressure, ambiguity, but very discoverable lol.
+
+### Timed choice selection from short list
+
+more pressure, raises idea that inaction is a choice !
+
+### Multiple distinct choices available on single node
+
+player can make several decisions before going onwards. Question of order, of combinations, so more expressiveness. still very discoverable compared to parser cause choices enumerated
+
+### QTEs
+
+totally discoverable but also pressured and effortful. still low expressiveness and ambiguity. medium but abstract embodiment.
+
+### Typing keywords
+
+choice selection with extra steps. can add pressure or ambiguity very easily. also fun to twist this notion by interspersing it.
+
+### Typing words into parser
+
+classic parser is mid effort, high expressiveness, low discoverability, low pressure, low embodiment. usually low ambiguity.
+
+### Typing natural language dialog
+
+high expressiveness duh, high ambiguity, low discoverability. Façade : pressure up cause real-time activity from the NPCs
+
+### Moving through textual layout
+
+Loose Strands and Device 6 → swipe in 4 available directions, higher effort but low expression and even lower embodiment
+
+### Moving through 2d/3d world
+
+“narrative by exploration” game like gone home, somewhat expressive, mid to high effort, pressure and discoverability greatly vary, but high embodiment
+
+### Voice selection of a keyword
+
+mid effort, low ambiguity, low pressure, low expressiveness, high discoverability
+
+### Specialist props
+
+physical ones like instruments → LARPs and escape rooms highest forms of that, discoverability varies , high embodiment if done right
+
+### Whole body engagement
+
+dancing games, VR. fuzzy input → always a bit ambiguous, high embodiment and effort, discoverability depends on messaging.
+
+
 
 ## Player experience
 
@@ -102,4 +179,5 @@ The player's ***interpretation*** of the choice as a whole is influenced both by
 - obvious choices: one option that achieves a goal and doesn’t fail any, all other options threaten a goal while achieving none
 - relaxed choices: each option enables or achieve a goal, none threaten / fail any goal. Low stakes.
 - dilemma choices: all options threaten a goal (their priority being equal), none achieve any goal, options that enable a goal need to fail a goal.
+
 

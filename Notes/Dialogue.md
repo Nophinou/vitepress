@@ -10,38 +10,47 @@ lang: en-US
 
 ### Signified, filter, and signifying at the singular line level
 
-Characters don't 100% sincerely express their thoughts as they are, their filter (who they are) molds their expression, just like their goals (what they want to achieve in the present conversation) do. Author has to bring the audience / player towards their state of mind, but by doing it through clues (phrasing, selection of the stimuli / info they react to, etc.).
+Characters don't 100% sincerely express their thoughts as they are, their <span class="highlight">**FILTER**</span> (who they are) molds their expression, just like their <span class="highlight"> **GOALS** </span> (what they want to achieve in the present conversation) do. Author has to bring the audience / player towards their state of mind, but by doing it through <u>clues</u> (phrasing, selection of the stimuli / info they react to, etc.).
 
 ![dialogue filter](/en-dialogue-filter-light.png){.light-only}
 ![dialogue filter](/en-dialogue-filter-dark.png){.dark-only}
 
-Essential brick of good dialogue: keep the audience engaged by giving them the info they need to put two and two together and understand the key points of the conversation.
+Essential brick of good dialogue: keep the audience engaged by giving them the info they need to <u>put two and two together</u> and understand the key points of the conversation.
 
-### What a convo should achieve
+### What a conversation should achieve
 
-- Worldbuild / subtly hand out setting info without it being the focus of the discussion
 - Help the plot move forward
-- Characterize NPCs or protagonist
+- Characterize NPCs and / or protagonist
+- Worldbuild / subtly hand out setting info without it being the focus of the discussion
 
--> CONTENT SELECTION
+This goes hand in hand with the concept of content selection.
 
 ![dialogue progression](/en-dialogue-progression-light.png){.light-only}
 ![dialogue progression](/en-dialogue-progression-dark.png){.dark-only}
 
 
-So: 
 
-GOALS OF THE AUTHOR -> list info that needs to be communicated.
+::: info In short
 
-GOALS OF THE CHARACTER -> through the filter, but they try to **STEER** the convo to reach their goal
-Progression in the convo (THROUGH LOGICAL STEPS) to reach the desired state, characters need a reason to progressively let on what they're secretly thinking -> select content to show directly and to spend time on to reveal those dynamics
+- The goals of the author are best achieved by listing info that needs to be communicated.
 
+- The goals of the characters are expressed through their filter, they try to <span class="highlight"> **STEER** </span> the conversation to reach their goals.
+
+- Progression in the convo goes through <u>logical steps</u> to reach the desired final state, characters need a reason to progressively let on what they're secretly thinking -> agains, select which content to show directly and to spend time on to reveal those dynamics.
+
+:::
 The shape of the conversation can and should be analyzed through subtext, not surface-level text.
 
-### Facilitating devices
+### Some facilitating devices
 
-- Something else is going on during the convo that helps reveal disagreement and foster conflict -> order pizza, order pizza while on the phone with the parlor, all that + there's a leak, etc. Then, a scene in which nothing beside convo happens is that much powerful.
-- Locally alter plot or secondary characters behavior to help the important one communicate their values / themes (Silco talks about smashing boundaries to convince an underling to take the drug).
+- Something else is going on during the conversation that helps reveal disagreement and foster conflict:
+    1. Order pizza
+    2. Order pizza while on the phone with the parlor
+    3. Order pizza while on the phone with the parlor and there's a plumbing leak happening
+    4. Etc.
+
+    Then, a scene in which nothing beside the conversation happens is much more powerful.
+- Locally alter plot or secondary characters behavior to help the important one communicate their values / themes (In <u>Arcane</u>: [Silco discusses smashing boundaries to convince an underling to take his drug](https://youtu.be/-AhtKvgy6MA?si=M4StXYgwVe7s5WtT&t=714)).
 - Use props, items, etc. as allegories or subtext. Audience has to **decode** everything and is more engaged.
 - Rhythm-wise: call back to previous elements, or insert info / behaviours that put the convo in a new context. Similarly, introduce a strong idea / expression / allegory / figure of speech and develop it sporadically throughout the convo.
 
@@ -51,22 +60,17 @@ The shape of the conversation can and should be analyzed through subtext, not su
 
 Jon Ingold's method for [sparkling dialogue](https://www.youtube.com/watch?v=_vRfNtvFVRo): identify subtext and think in terms of beats that need to escalate (but not all need to be seen) for a natural flow. Three-lines structure for focus but also range (use accept/reject/deflect), with new options added in loops depending on the previous options. Depending on the progression chose, prune and add options, always add text variations and callbacks.
 
-Useful structural effects:
-- Trapdoors to skip a beat
-- Loops for equilibrium
-- Milled options for a character forcing our hand
-- Limited time (= number of beats) to keep momentum going
 
-| Name       | Diagram | Notes |
+| NAME       | DIAGRAM | NOTES |
 |---|---|---|
-|**Trapdoor**|![dialogue progression](/en-dialogue-trapdoor-dark.png){.dark-only}{width=600px } ![dialogue progression](/en-dialogue-trapdoor-light.png){.light-only}{width=600px}| One of the options skips the next story beat  |
-|**Loop**|![dialogue loop](/en-dialogue-loop-light.png){.light-only}{width=600px} ![dialogue loop](/en-dialogue-loop-dark.png){.dark-only}{width=600px }  | Indicates a status quo or an unresolved confrontation, options can be renewed |
-|**Milled options**|lsdfk| Indicates fruitless efforts on  the player's part, or a character forcing our hand |
-|**Limited time**|lsdfk| Keeps the flow going after a satisfying progression, even if not seeing all story beats  |
+|**TRAPDOOR**|![dialogue progression](/en-dialogue-trapdoor-dark.png){.dark-only}{width=1200px } ![dialogue progression](/en-dialogue-trapdoor-light.png){.light-only}{width=1200px}| One of the options skips the next beat  |
+|**LOOP**|![dialogue loop](/en-dialogue-loop-light.png){.light-only}{width=1200px} ![dialogue loop](/en-dialogue-loop-dark.png){.dark-only}{width=1200px }  | Indicates a status quo or a yet unresolved confrontation, options are fully or partially renewed |
+|**MILLED OPTIONS**|![dialogue milled](/en-dialogue-mill-light.png){.light-only}{width=1200px} ![dialogue milled](/en-dialogue-mill-dark.png){.dark-only}{width=1200px }| Indicates fruitless efforts on the player's part, or a character forcing our hand |
+|**LIMITED TIME**|![dialogue limited](/en-dialogue-limited-light.png){.light-only}{width=1200px} ![dialogue limited](/en-dialogue-limited-dark.png){.dark-only}{width=1200px }| Beat progression can only escalate, after seeing a specified number of beats the player is forced towards the end. Keeps the flow going after a satisfying progression, even if not seeing a full content sequence.   |
 
 ## Examples
 
-### Linear
+### Linear conversations
 
 ::: details James Ellroy's <u>Black Dahlia</u> - first conversation between Bucky and Kay
 

@@ -2,7 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [['link', { rel: 'icon', href: '/crinière.png' }]],
+  head: [
+
+    ['link', { rel: 'icon', href: '/crinière.png' }],],
   title: "Noph",
   description: "Noph, Narrative designer and game writer",
   base: '/',
@@ -45,7 +47,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Portfolio', link: '/Portfolio/About.md', activeMatch: '/Portfolio/' },
-      { text: 'Public notes', link: '/Notes/About', activeMatch: '/Notes/'}    
+      { text: 'Public notes', link: '/Notes/About', activeMatch: '/Notes/'},    
+      { text: 'Now', link: '/Now.md', activeMatch: '/Now'},    
     ],
     logo: '/crinière.png',
     i18nRouting: true,
@@ -97,6 +100,8 @@ export default defineConfig({
           { text: 'Tools', link: '/Notes/Tools' },
           { text: 'Choices', link: '/Notes/Choices' },
           { text: 'Dialogue', link: '/Notes/Dialogue' },
+          { text: 'NPCs', link: '/Notes/NPCs' },
+          { text: 'Protagonists', link: '/Notes/protagonists' },
           { text: 'Bibliography', link: '/Notes/bibliography' },
 
         ]
@@ -115,6 +120,8 @@ export default defineConfig({
           { text: 'Outils', link: '/fr/Notes/Tools' },
           { text: 'Choix', link: '/fr/Notes/choices' },
           { text: 'Dialogue', link: '/fr/Notes/Dialogue' },
+          { text: 'PNJs', link: '/Notes/NPCs' },
+          { text: 'Protagonistes', link: '/fr/Notes/protagonists' },
           { text: 'Bibliographie', link: '/fr/Notes/bibliography' },
 
         ]
