@@ -101,7 +101,7 @@ export default defineConfig({
           { text: 'Choices', link: '/Notes/Choices' },
           { text: 'Dialogue', link: '/Notes/Dialogue' },
           { text: 'NPCs', link: '/Notes/NPCs' },
-          { text: 'Protagonists', link: '/Notes/protagonists' },
+          { text: 'Protagonists', link: '/Notes/Protagonists' },
           { text: 'Bibliography', link: '/Notes/bibliography' },
 
         ]
