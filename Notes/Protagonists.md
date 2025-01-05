@@ -16,7 +16,7 @@ The framework "external actions show what a character wants" is not so easy to u
 In linear media, you only need to create <span class="highlight">EMPATHY</span>; in games, you need <span class="highlight">UNITY</span>, which is hard to do when your protagonist's characterization goes against your player's.
 :::
 
-To still achieve this unity, we focus on three aspects:
+To still achieve this unity, [Jeremy bernstein recommends](https://www.youtube.com/watch?v=4mgK2hL33Vw) to focus on three aspects:
 
 
 |Unity|Description|Importance| Toolbox |
@@ -29,7 +29,11 @@ To still achieve this unity, we focus on three aspects:
 
 ## Handling emotions
 
+:::info [Andrew S. Walsh](https://youtu.be/_lp0libfp5M):
+
 <span class="highlight">The emotions explored in the game are not necessarily those experienced by the player!</span>
+
+:::
 
 ### Three manifestations of emotion in an interactive environment
 

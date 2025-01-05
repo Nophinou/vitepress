@@ -54,3 +54,16 @@ In your options, you have [certainty but no framing](./Choices.md#anatomy-of-the
 ::: tip Darkwood
 The mother of the Elephants is convinced that the oxygen tank she gives us is full. What could have been a simple transactional fetch quest highlights her delusion.
 :::
+
+
+## Toolbox
+
+### Using contrast
+
+:::details Slow Horses spoiler
+The psycho kidnapper is suggested to be the infiltrated agent at the start, before a huge switch where he shows his true colors -> his actions are much more impactful because of the stablished contrast
+:::
+
+:::details Disco Elysium spoiler
+Kim Kitsuragi starting off as a silent, judgemental type of character before selling his beloved car parts to pay for your hotel stay heightens the fundamentally altruistic nature of his personality
+:::

@@ -9,13 +9,7 @@ hero:
   image:
     src: /test.png
     alt: Noph
-  actions:
-    - theme: brand
-      text: Portfolio
-      link: /Portfolio/about
-    - theme: brand
-      text: Public notes
-      link: /Notes/About
+
 
 features:
   - title: About me
@@ -84,6 +78,8 @@ $card.addEventListener('mouseleave', () => {
       #0000000f
     )
   `;
+
+
 
 
 })

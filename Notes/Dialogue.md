@@ -43,16 +43,25 @@ The shape of the conversation can and should be analyzed through subtext, not su
 
 ### Some facilitating devices
 
-- Something else is going on during the conversation that helps reveal disagreement and foster conflict:
+- Something else is going on during the conversation that helps <span class="highlight">reveal disagreement</span> and foster conflict:
     1. Order pizza
     2. Order pizza while on the phone with the parlor
     3. Order pizza while on the phone with the parlor and there's a plumbing leak happening
     4. Etc.
 
     Then, a scene in which nothing beside the conversation happens is much more powerful.
+
+
 - Locally alter plot or secondary characters behavior to help the important one communicate their values / themes (In <u>Arcane</u>: [Silco discusses smashing boundaries to convince an underling to take his drug](https://youtu.be/-AhtKvgy6MA?si=M4StXYgwVe7s5WtT&t=714)).
 - Use props, items, etc. as allegories or subtext. Audience has to **decode** everything and is more engaged.
 - Rhythm-wise: call back to previous elements, or insert info / behaviours that put the convo in a new context. Similarly, introduce a strong idea / expression / allegory / figure of speech and develop it sporadically throughout the convo.
+
+:::tip Seizing opportunities
+You usually have a lot of different options using these devices; as facilitating elements to your scene that initially aren't relevant to your plot,they often offer a very nice occasion to set up a payoff that will come into play later.
+
+
+:::
+
 
 
 

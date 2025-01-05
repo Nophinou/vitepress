@@ -12,6 +12,11 @@ A cool Disco Elysium-inspired open source game engine that comes out of the box 
 A dedicated editor might come along in the future, but for now all development has to be done in a code editing app such as [Visual Studio Code](https://code.visualstudio.com).
 It also lets you live test and debug your game in the middle of editing it.
 
+## [LÖVE](https://love2d.org/)
+
+Also commonly called "Love2d". <br>
+A lua-based 2d framework that is accessible but still powerful.
+
 ## [Obsidian](https://obsidian.md) 
 
 The general purpose notes app I like to use. Has the flexibility of markdown while still allowing you to include all the multimedia content you'd like. Its most popular plugin (Excalidraw for Obsidian) lets you draw diagrams, lay out your content and embed any type of notes on a visual canvas, which is basically an enriched version of Miro if you don't need the collaboration aspect of it.
@@ -22,7 +27,7 @@ Tried Krita for drawing small simple visual assets, but it was too powerful for 
 
 ## [Asset Forge](https://kenney.nl/tools/asset-forge)
 
-A basic 3D builder that comes with a variety of elementary blocks that you can dispose and apply simple modifications to very easily. Supports importing 3rd party models, great for building simple scenes if, like me, you don't know what you're doing.
+A basic 3D builder that comes with a variety of elementary blocks that you can dispose and apply simple modifications to very easily. Supports importing 3rd party models, great for building simple scenes if, like me, you have absolutely no 3D skills.
 
 ## [Graphviz](https://graphviz.org/)
 

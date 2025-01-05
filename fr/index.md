@@ -9,13 +9,7 @@ hero:
   image:
     src: /test.png
     alt: Noph
-  actions:
-    - theme: brand
-      text: Portfolio
-      link: /Portfolio/about
-    - theme: brand
-      text: Notes publiques
-      link: /Notes/About
+
 
 
 features:

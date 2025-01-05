@@ -35,8 +35,9 @@ export default defineConfig({
           label: 'Sur cette page'
         },
         nav: [
-          { text: 'Portfolio', link: '/fr/Portfolio/About', activeMatch: '/fr/Portfolio/' },
-          { text: 'Notes Publiques', link: '/fr//Notes/About', activeMatch: '/fr/Notes/'}    
+         // { text: 'Portfolio', link: '/fr/Portfolio/About', activeMatch: '/fr/Portfolio/' },
+          { text: 'Notes Publiques', link: '/fr//Notes/About', activeMatch: '/fr/Notes/'},
+         // { text: 'Maintenant', link: '/fr/Now.md', activeMatch: '/fr/Now'}    
         ]
       }
     }
@@ -46,9 +47,9 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Portfolio', link: '/Portfolio/About.md', activeMatch: '/Portfolio/' },
+     // { text: 'Portfolio', link: '/Portfolio/About.md', activeMatch: '/Portfolio/' },
       { text: 'Public notes', link: '/Notes/About', activeMatch: '/Notes/'},    
-      { text: 'Now', link: '/Now.md', activeMatch: '/Now'},    
+     // { text: 'Now', link: '/Now.md', activeMatch: '/Now'},    
     ],
     logo: '/crinière.png',
     i18nRouting: true,
@@ -102,6 +103,8 @@ export default defineConfig({
           { text: 'Dialogue', link: '/Notes/Dialogue' },
           { text: 'NPCs', link: '/Notes/NPCs' },
           { text: 'Protagonists', link: '/Notes/Protagonists' },
+          { text: 'Implicit and explicit content', link: '/Notes/Implicit and explicit content' },
+          { text: 'Branching narratives', link: '/Notes/Branching narratives' },
           { text: 'Bibliography', link: '/Notes/bibliography' },
 
         ]
@@ -120,8 +123,10 @@ export default defineConfig({
           { text: 'Outils', link: '/fr/Notes/Tools' },
           { text: 'Choix', link: '/fr/Notes/choices' },
           { text: 'Dialogue', link: '/fr/Notes/Dialogue' },
-          { text: 'PNJs', link: '/Notes/NPCs' },
+          { text: 'PNJs', link: '/fr/Notes/NPCs' },
           { text: 'Protagonistes', link: '/fr/Notes/protagonists' },
+          { text: 'Contenu implicite et explicite', link: '/fr/Notes/Implicit and explicit content' },
+          { text: 'Narrations à embranchements', link: '/fr/Notes/Narrations à embranchements' },
           { text: 'Bibliographie', link: '/fr/Notes/bibliography' },
 
         ]
