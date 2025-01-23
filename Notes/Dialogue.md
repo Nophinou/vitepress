@@ -19,9 +19,9 @@ Essential brick of good dialogue: keep the audience engaged by giving them the i
 
 ### What a conversation should achieve
 
-- Help the plot move forward
-- Characterize NPCs and / or protagonist
-- Worldbuild / subtly hand out setting info without it being the focus of the discussion
+- Help the plot <span class="color">move</span> forward
+- <span class="color">Characterize</span> NPCs and / or protagonist
+- <span class="color">Worldbuild</span> / subtly hand out setting info without it being the focus of the discussion
 
 This goes hand in hand with the concept of content selection.
 
@@ -58,8 +58,6 @@ The shape of the conversation can and should be analyzed through subtext, not su
 
 :::tip Seizing opportunities
 You usually have a lot of different options using these devices; as facilitating elements to your scene that initially aren't relevant to your plot,they often offer a very nice occasion to set up a payoff that will come into play later.
-
-
 :::
 
 

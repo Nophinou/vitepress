@@ -73,5 +73,5 @@ Slowly figuring out the present danger from escalating clues.
 
 <u>All cues are more effective if genre conventions let the player know what's expected and what deviates from the norm</u>.
 
-- Light: universal regardless of setting, candles can indicate long-term adaptations
-- Cleanliness / Tidyness: some universal priorities (eg. blood and bodies) but again depends on the specific setting / sublocation.
+- <span class="color">Light</span>: universal regardless of setting, candles can indicate long-term adaptations
+- <span class="color">Cleanliness / Tidyness</span>: some universal priorities (eg. blood and bodies) but again depends on the specific setting / sublocation.

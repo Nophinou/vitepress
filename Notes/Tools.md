@@ -23,7 +23,7 @@ The general purpose notes app I like to use. Has the flexibility of markdown whi
 
 ## [Affinity Photo ](https://affinity.serif.com/fr/photo/)
 
-Tried Krita for drawing small simple visual assets, but it was too powerful for both my skills and needs. Affinity Photo is a one-time payment of 60$ and a great middle between the daunting powerhouse that is Photoshop and the weaker (but great in a pinch!) Photopea. Has a bunch of small quality of life tweaks I thoroughly enjoy, but can have some very benign bugs at time.
+Tried Krita for drawing small simple visual assets, but it was too powerful for both my skills and needs. Affinity Photo is a one-time payment of 60$ and a great middle between the powerhouse that is Photoshop and the weaker (but great in a pinch!) Photopea. Has a bunch of small quality of life tweaks I thoroughly enjoy, but can have some very benign bugs at time.
 
 ## [Asset Forge](https://kenney.nl/tools/asset-forge)
 

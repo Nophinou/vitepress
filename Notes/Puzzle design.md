@@ -153,10 +153,6 @@ Same principles as in linear art forms.
 - Make tension rise throught the game and reach a climax
 - If longer game, divide this structure into acts that follow the same principles
 
-## Variety
-
-Repeating a puzzle is a no-no, unless the second occurrence brings an additional layer of complexity to the table.
-
 ## Puzzle design process
 
 1. Create setting
@@ -166,3 +162,9 @@ Repeating a puzzle is a no-no, unless the second occurrence brings an additional
 5. Assign a sub-goal to each scene
 6. Create obstacles to the player's progression, materialized through an puzzle
 7. Make sure that in the end, the player has a solid grasp of what is part of the present puzzle and what is part of the game's natural boundaries
+
+## Variety 
+
+- Repeating a puzzle is a no-no, unless the second occurrence brings an additional layer of complexity to the table.
+- Mixing localized actions and environmental states as combining factors for the resolution of a puzzle works like a charm in games featuring environmental / sequential puzzles such as Outer Wilds, Botany Manor, Grunn.
+- In loop games, having several solutions to a puzzle might provide opportunities to keep early game elements relevant or change strategies depending on the player's level of knowledge, and augments the world's cohesiveness

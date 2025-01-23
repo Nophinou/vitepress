@@ -48,8 +48,8 @@ In your options, you have [certainty but no framing](./Choices.md#anatomy-of-the
 
 ## NPCs beyond plot or mechanics
 
-- Characterize the protagonist through their limitations. Bring on strong situations where the player feels powerless, highlighted by contrast.
-- Have the NPCs' personal concerns explore predefined themes. Always <span class="highlight">COMPLEXITY AND CONTRADICTION</span>.
+- <span class="color">Characterize</span> the protagonist through their limitations. Bring on strong situations where the player feels powerless, highlighted by contrast.
+- Have the NPCs' personal concerns <span class="color">explore</span> predefined themes. Always <span class="highlight">COMPLEXITY AND CONTRADICTION</span>.
 
 ::: tip Darkwood
 The mother of the Elephants is convinced that the oxygen tank she gives us is full. What could have been a simple transactional fetch quest highlights her delusion.

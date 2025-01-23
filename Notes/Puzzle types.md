@@ -287,8 +287,12 @@ The simplest puzzle there can be. Use the key to open the locked door.
 Make use of the secondary characteristic of an object. The diamond earring can cut glass, the candle's wax can be melted into a key impression, etc.
 
 
-<!--insert grand poo world 3 where mario stands on a key to reach the door instead of using it to unlock it
--->
+Those objects have primary uses that necessitate efforts to steer the player towards this secondary use, but some items (especially in very codified, narration-deprived context) have such an obvious use / reason to exist that considering an alternate usage is extremely hard -> dedicate considerable time and efforts to make this solution apparent (probably through a [fake puzzle](./Puzzle%20design#fake-puzzles) to eliminate the obvious use), or simply let circumstances reduce the available options so much that there's really only one course of action, and the player understands the secondary use in question while performing it.
+
+:::tip Grand Poo World 3's footboard key
+Not a puzzle in itself, but a particular screen in [Grand Poo World 3](https://www.smwcentral.net/?p=section&a=details&id=17289) brings you to use a key not as a mean to open the final door, but as an object to stand on in order to be able to open it.
+:::
+
 
 ## Exluded middle
 
@@ -302,6 +306,3 @@ The player also has to meet the condition that makes `b → c` effective.
 
 Performing an action now for a distant, future effect. Harder if more than one location is involved.
 
-
-
-<a href=".vitepress/dist/back.jpg" download>Download</a>
