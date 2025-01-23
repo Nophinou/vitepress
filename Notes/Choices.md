@@ -63,9 +63,9 @@ Can be influenced by the format of the options: are we faced with a menu, dialog
 
 ### Constraints
 
-- Resources needed for options (materials or stats) that you can acquire in prevision or find yourself equipped with
-- Mechanical ability in real-time gameplay games
-- Limited time to choose
+- <span class="color">Resources</span> needed for options (materials or stats) that you can acquire in prevision or find yourself equipped with
+- <span class="color">Mechanical ability</span> in real-time gameplay games
+- <span class="color">Limited time</span> to choose
 
 ### Other exploitable characteristics
 
@@ -114,7 +114,7 @@ Many dimensions of a player's experience are affected by choices and their const
 - <span class="color">**Influence**</span>: see one's actions have consequences on the world and the story, even when those were not anticipated / premeditated
 - <span class="color">**Autonomy**</span>: ability to pursue one's own goals
 - <span class="color">**Identification**</span>: pay attention to the phrasing and the coherence of the character's viewpoint, emotions, mode of expression, etc.
-- <span class="color">**Transportation**</span>: choices can both express "what happens" in a playthrough as a linear story, or, more impactfully, the breadth of "what could happen" in the context of multiple playthroughs. Supposes outcomes that are congruent to their options and similar in terms of impact and weight. The [**Time Cave**](/Notes/Branching%20narratives/classic-structures) is the epitome of that principle.
+- <span class="color">**Transportation**</span>: choices can both express "what happens" in a playthrough as a linear story, or, more impactfully, the breadth of "what could happen" in the context of multiple playthroughs. Supposes outcomes that are congruent to their options and similar in terms of impact and weight. The [**Time Cave**](/Notes/Branching%20narratives#classic-structures) is the epitome of that principle.
 - <span class="color">**Absorption**</span>: detached from "immersion" and its sensory connotation, describes the player's state of focus, which serves their sense of flow. Choices can both demand focus and divert attention from the narrative.
 
 
