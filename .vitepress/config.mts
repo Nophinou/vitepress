@@ -91,10 +91,10 @@ export default defineConfig({
 
     sidebar: {
       '/Notes/': [
+        { text: 'About', link: '/Notes/About' },
       { 
-        text: 'Public Notes',
+        text: 'Narrative design',
         items: [
-          { text: 'About', link: '/Notes/About' },
           { text: 'Storylets', link: '/Notes/Storylets' },
           { text: 'Puzzle design', link: '/Notes/Puzzle design' },
           { text: 'Puzzle types', link: '/Notes/Puzzle types' },
@@ -105,18 +105,28 @@ export default defineConfig({
           { text: 'Protagonists', link: '/Notes/Protagonists' },
           { text: 'Implicit and explicit content', link: '/Notes/Implicit and explicit content' },
           { text: 'Branching narratives', link: '/Notes/Branching narratives' },
+          { text: 'Story shapes', link: '/Notes/Story shapes' },
           { text: 'Bibliography', link: '/Notes/bibliography' },
 
         ]
-      }
+      },
+      { 
+        text: 'Games',
+        items: [
+          { text: 'Celeste', link: '/Notes/Celeste' },
+          { text: 'Balatro', link: '/Notes/Balatro' },
+
+
+        ]
+      },
     ],
 
 
       '/fr/Notes/': [
+        { text: 'À propos', link: '/fr/Notes/About' },
       { 
-        text: 'Notes publiques',
+        text: 'Narrative Design',
         items: [
-          { text: 'À propos', link: '/fr/Notes/About' },
           { text: 'Narramiettes', link: '/fr/Notes/Storylets' },
           { text: 'Puzzle design', link: '/fr/Notes/Puzzle design' },
           { text: 'Types de puzzles', link: '/fr/Notes/Puzzle types' },
@@ -126,11 +136,21 @@ export default defineConfig({
           { text: 'PNJs', link: '/fr/Notes/NPCs' },
           { text: 'Protagonistes', link: '/fr/Notes/protagonists' },
           { text: 'Contenu implicite et explicite', link: '/fr/Notes/Implicit and explicit content' },
-          { text: 'Narrations à embranchements', link: '/fr/Notes/Narrations à embranchements' },
+          { text: 'Narrations à embranchements', link: '/fr/Notes/Branching narratives' },
+          { text: 'Anatomie d\'une histoire', link: '/fr/Notes/Story shapes' },
           { text: 'Bibliographie', link: '/fr/Notes/bibliography' },
 
         ]
-      }
+      },
+      { 
+        text: 'Jeux',
+        items: [
+          { text: 'Celeste', link: '/fr/Notes/Celeste' },
+          { text: 'Balatro', link: '/fr/Notes/Balatro' },
+
+
+        ]
+      },
     ],
 
       '/Portfolio/': [
@@ -138,11 +158,6 @@ export default defineConfig({
         text: 'Portfolio',
       items: [
         { text: 'About', link: '/Notes/About' },
-        { text: 'Storylets', link: '/Notes/Storylets' },
-        { text: 'Puzzle design', link: '/Notes/Puzzle design' },
-        { text: 'Puzzle types', link: '/Notes/Puzzle types' },
-        { text: 'Tools', link: '/Notes/Tools' },
-        { text: 'Bibliography', link: '/Notes/bibliography' },
       ]
       }
     ]

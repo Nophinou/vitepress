@@ -67,6 +67,7 @@ Players rarely replay their games, many branchs are not seen despite their numbe
 ::: info ex: Branching Ulysse's return to Ithaca
 ![Ulysses](/enEmbranchmentsDark.png){.dark-only}
 ![Ulysses](/enEmbranchmentsLight.png){.light-only}
-❗Not to be read as a geographical map, each segment can only be played once; to make the most of your content, you'd probably want your player to play every single segment once before getting to Ithaca.
+❗Not to be read as a geographical map, each segment can only be played once; to make the most of your content, you'd probably want your player to play every single segment once before getting to Ithaca. <br>
+💡 Scoring choices at the end can be efficiently used in conjunction with [narrative states](https://emshort.blog/2019/11/23/narrative-states/)
 :::
 

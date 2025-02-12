@@ -69,8 +69,8 @@ Can be influenced by the format of the options: are we faced with a menu, dialog
 
 ### Other exploitable characteristics
 
-- Reversibility of the option chosen
-- Granularity in a decision process. Windblown: not making your kunais explode lets you apply a status after a while, kind of a hidden option that has low discoverability. Lorelei and the laser eyes: freedom to move and not just teleport to destination allows for hidden glitches. Outer Wilds: lamp has to be actively picked up and carried, leaves the option to drop it...
+- <span class="color">Reversibility</span> of the option chosen
+- <span class="color">Granularity</span> in a decision process. Windblown: not making your kunais explode lets you apply a status after a while, kind of a hidden option that has low discoverability. Lorelei and the laser eyes: freedom to move and not just teleport to destination allows for hidden glitches. Outer Wilds: lamp has to be actively picked up and carried, leaves the option to drop it...
 
 
 
@@ -95,7 +95,7 @@ From [Emily Short's dedicated article](https://emshort.blog/2016/05/25/not-all-c
 |**Timed hypertext**|Generally only used for stressful situations, not for the full piece.|
 |**Dragged commands**|A la Texture. very discoverable cause areas highlighted, more expressive if choosing action and object, but fewer interactions than parser game. mild effort. sweet spot cause accessible but still intention and complicity.|
 |**Untimed choice selection from short list**|very standard. low effort, expressiveness, pressure, ambiguity, but very discoverable lol.|
-|**Timed choice selection from short list**|more pressure, raises idea that inaction is a choice !|
+|**Timed choice selection from short list**|more pressure, raises idea that inaction is a choice!|
 |**Multiple distinct choices available on single node**|player can make several decisions before going onwards. Question of order, of combinations, so more expressiveness. still very discoverable compared to parser cause choices enumerated|
 |**QTEs**|totally discoverable but also pressured and effortful. still low expressiveness and ambiguity. medium but abstract embodiment.|
 |**Typing keywords**|choice selection with extra steps. can add pressure or ambiguity very easily. also fun to twist this notion by interspersing it.|
@@ -130,15 +130,15 @@ The player's ***interpretation*** of the choice as a whole is influenced both by
 - <span class="color">**Delayed consequences**</span> ([deemed deprecated by Peter Mawhorter](http://www.fdg2014.org/papers/fdg2014_paper_19.pdf) but [defended by Emily Short](https://emshort.blog/2019/04/09/choice-poetics-peter-mawhorter/) when backed with stats)
 - <span class="color">**Reflective choices**</span> that allow the player [to either express their values / opinions or to determine what kind of person their character is](https://catacalypto.wordpress.com/2018/06/19/successful-reflective-choices-in-interactive-narrative/). Phrasing then matters a lot, being succinct enhances absorption (see below) and is more visceral, giving flavor to the options can titillate the player's curiosity and put the emphasis on the character. When playing an already defined protagonist, playing with the conventions is very effective in highlighting their desires and limitations + always make room for characterization outside the scope of decisions (the player choses the action, the character their mode of expression). Reflective choices give insight into the character and / or give participation in their construction. We'll consider **customization choices** that affect graphical elements only part of this category.
     - Subset of the reflective choice: proposing you the same dialogue option twice but the second time, it's a lie (used at least once in <u>Slay The Princess</u>).
-- <span class="color">**Story-defining choices**</span> where you complete the game's narration (in [Cactus Blue Motel](https://astriddalmady.com/cactusblue.html)'s opening, you finish the narrator's sentence describing who's driving the car)
+- <span class="color">**Story-defining choices**</span> where you complete the game's narration (in [Cactus Blue Motel](https://astriddalmady.com/cactusblue.html)'s opening, you finish the narrator's sentence describing who's driving the car / see [Spider And Web](https://eblong.com/zarf/zweb/tangle/) for an even more potent example)
 
 ## Dunyazad's procedural generation
 
-[Peter Mawhorter's system](https://www.aaai.org/ocs/index.php/AIIDE/AIIDE15/paper/download/11550/11355) to generate choice clusters and text. Based on RPG-like skills that are openly called out in options. Certainty is maximized as much as possible.
+[Peter Mawhorter's system](https://ojs.aaai.org/index.php/AIIDE/article/view/12791) to generate choice clusters and text. Based on RPG-like skills that are openly called out in options. Certainty is maximized as much as possible.
 
-- **<u>obvious choices</u>**: one option that achieves a goal and doesn’t fail any, all other options threaten a goal while achieving none
-- **<u>relaxed choices</u>**: each option enables or achieve a goal, none threaten / fail any goal. Low stakes.
-- **<u>dilemma choices</u>**: all options threaten a goal (their priority being equal), none achieve any goal, options that enable a goal need to fail a goal.
+- <span class="color">obvious choices</span>: one option that achieves a goal and doesn’t fail any, all other options threaten a goal while achieving none
+- <span class="color">relaxed choices</span>: each option enables or achieve a goal, none threaten / fail any goal. Low stakes.
+- <span class="color">dilemma choices</span>: all options threaten a goal (their priority being equal), none achieve any goal, options that enable a goal need to fail a goal.
 
 
 ## Toolbox
@@ -147,10 +147,10 @@ From [Cass Phillipps' talk](https://www.youtube.com/watch?v=TEa9aSDHawA):
 
 ### Find your choices
 
-- From NPCs and the questions they ask the players.
-- To hide negative beats forced by the story: we prepare the way with some disseminated minor choices pertaining to the beat that can be referenced to make it less unfair / disconnected from our playthrough; we don't want the player to feel like the game fails them without them ever having had any chance to avoid it.
+- <span class="color">From NPCs</span> and the questions they ask the players.
+- <span class="color">To hide negative beats</span> forced by the story: we prepare the way with some disseminated minor choices pertaining to the beat that can be referenced to make it less unfair / disconnected from our playthrough; we don't want the player to feel like the game fails them without them ever having had any chance to avoid it.
 
 ### Give meaning to your choices
 
-- Altering the way NPCs speak, minor details in scenes, graphical customization, small worldbuilding details taking your choices into account
-- Immediately react to a choice: 
+- <span class="color">Altering the way NPCs speak</span>, minor details in scenes, graphical customization, small worldbuilding details taking your choices into account.
+- <span class="color">Immediately react to a choice</span>: tell the player that what they just chose matters and will have an effect on the rest of the playthough.
