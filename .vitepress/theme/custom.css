@@ -52,3 +52,10 @@ html:not(.dark) .color {
 .column {
     flex: 50%;
 }
+
+.center {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
