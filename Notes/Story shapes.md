@@ -90,7 +90,7 @@ In conclusion, per scene:
 3. Do the outcomes meaningfully add to the mechanics and/or narrative?
 4. Was there change for the player or the character?
 
-::: tips
+::: tip Tips
 - The character can fail while the player succeeds
 - Internal change is more powerful than external change
 - Breaks between events build tension
