@@ -70,7 +70,7 @@ Can be influenced by the format of the options: are we faced with a menu, dialog
 ### Other exploitable characteristics
 
 - <span class="color">Reversibility</span> of the option chosen
-- <span class="color">Granularity</span> in a decision process. Windblown: not making your kunais explode lets you apply a status after a while, kind of a hidden option that has low discoverability. Lorelei and the laser eyes: freedom to move and not just teleport to destination allows for hidden glitches. Outer Wilds: lamp has to be actively picked up and carried, leaves the option to drop it...
+- <span class="color">Granularity</span> in a decision process. <br><u>Windblown</u>: not making your kunais explode lets you apply a status after a while, kind of a hidden option that has low discoverability. <br><u>Lorelei and the laser eyes</u>: freedom to move and not just teleport to destination allows for hidden glitches. <br><u>Outer Wilds</u>: lamp has to be actively picked up and carried, leaves the option to drop it... <br><u>Leap Year</u>: the whole game! <br> Powerful mechanic to unveil late-ish in your game if the first possible step seems to block the way to other possibilities
 
 
 

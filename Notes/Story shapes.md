@@ -8,17 +8,43 @@ lang: en-EN
 
 ## Kurt Vonnegut
 
+## Story shape
 
-shape of story with up and downs that give an overall "sense" of the story, but ambiguity and multiplicity of interpretations can make it difficult to recognize them (hamlet, vita nostra) 
+<br>
+<br>
 
-GIVE every character a goal even for a aglass of water 
+<div class="center">
+
+![Boy meets Girl shape](/storyShapesBoyMeetsGirlLight.png){.light-only}{width=400px}
+![Boy meets Girl shape](/storyShapesBoyMeetsGirlDark.png){.dark-only}{width=400px}
+</div>
+
+
+According to Kurt Vonnegut, the shape of a story can be charted to represent its mood. Cinderella is the same overall story shape as the New Testament.
+
+## Multiplicity of interpretations
+
+<u>Hamlet</u> is kickstarted with the main character speaking with the ghost of the former king, who reveals the queen and the king's brother conspired to kill him.
+BUT one can wonder:
+- Is this really the king's ghost?
+- Is he telling the truth?
+
+Hamlet recognizes that there's no way to be sure, so he sets out to find a convincing confirmation, fails, and the bloodbath begins.
+
+<span class="highlight">The shape of the story is radically different whether Hamlet is justified or not in his actions, ambiguity brings depth to the story themes.</span>
+
+
+
 
 ## [Mata Haggis: plot structure](https://youtu.be/8fXE-E1hjKk)
 
 ### Motivations
 
-PARTANT DE LA MÊME BASE QUE DIALOGUES ET NPCs
--> chaque personnage a une motivation interne et externe, va vers la motivation externe mais résout son arc en comprenant sa motivation interne 
+::: danger Prerequisite
+Just like we establish in [Dialogue](./Dialogue.md), characters have external goals and internal motivations; they move towards their goal but ultimately are led throughout the story to satisfy their internal motivation.
+:::
+
+
 
 <div class="row">
   <div class="column">
@@ -50,14 +76,22 @@ PARTANT DE LA MÊME BASE QUE DIALOGUES ET NPCs
 
 ### Scene building
 
+We build scenes according to our character's needs (to serve the story, do they need to learn anything? Do anything?).
 
-
-Motivation interne induit motivation externe des perso et conflit -> on construit les scènes selon leurs besoins (apprendre ou faire) -> quel conflit ? -> quel outcome 
-
-Goal of the scene: drama, traversal, combat, atmosphere…
-
-Per scene:
+In conclusion, per scene:
 - OBJECTIVE: what lead wants to achieve
 - CONFLICT: what prevents it from happening
-- OUTCOME: what happens then (yes but, yes and, no and)
+- OUTCOME: what happens then (<span class="color">yes but</span>, <span class="color">yes and</span>, <span class="color">no and</span>)
 
+### Debugging the player experience
+
+1. Is the player's objective clear?
+2. Is there escalating conflict, not just repetition?
+3. Do the outcomes meaningfully add to the mechanics and/or narrative?
+4. Was there change for the player or the character?
+
+::: tips
+- The character can fail while the player succeeds
+- Internal change is more powerful than external change
+- Breaks between events build tension
+:::
